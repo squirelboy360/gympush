@@ -1,0 +1,35 @@
+PODS:
+  - all_sensors (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_beep (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - all_sensors (from `.symlinks/plugins/all_sensors/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_beep (from `.symlinks/plugins/flutter_beep/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+
+EXTERNAL SOURCES:
+  all_sensors:
+    :path: ".symlinks/plugins/all_sensors/ios"
+  Flutter:
+    :path: Flutter
+  flutter_beep:
+    :path: ".symlinks/plugins/flutter_beep/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+
+SPEC CHECKSUMS:
+  all_sensors: 13f46502204bebbd1e06b65ff3d7cdaa03d88b26
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_beep: 54fb393b22dfa0f0e4573c81b1c74dd71c4e5af8
+  path_provider_foundation: eaf5b3e458fc0e5fbb9940fb09980e853fe058b8
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.12.1
