@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:all_sensors/all_sensors.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_beep/flutter_beep.dart';
 part 'counter_state.dart';
 
@@ -19,7 +20,7 @@ class CounterCubit extends Cubit<CounterState> {
 
   void decrement() {
     emit(CounterState(countValue: state.countValue - 1));
-    FlutterBeep.playSysSound(AndroidSoundIDs.TONE_CDMA_ABBR_ALERT);
+    FlutterBeep.playSysSound(AndroidSoundIDs.TONE_PROP_BEEP2);
   }
 
   void startListening() {
@@ -38,4 +39,5 @@ class CounterCubit extends Cubit<CounterState> {
     _proximitySubscription?.cancel();
     return super.close();
   }
+
 }

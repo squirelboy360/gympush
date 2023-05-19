@@ -1,16 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:gympush/logic/cubit/counter_cubit.dart';
 
 import '../../../colors.dart';
 
 class Counters extends StatelessWidget {
-  const Counters({Key? key}) : super(key: key);
-
+  const Counters({super.key});
+ int getCounterValue(BuildContext context){
+   final CounterState state = context.watch<CounterCubit>().state;
+   return state.countValue;
+ }
   @override
   Widget build(BuildContext context) {
     int repNum = 0;
     int caloriesBurnt = 0;
-    int totalCount = 0;
+    int totalCount = getCounterValue(context);
 
     return Center(
       child: Row(

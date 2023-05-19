@@ -7,6 +7,6 @@ class SetCountButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(padding: const EdgeInsets.all(5),child: OutlinedButton(onPressed: null, child: Text('Set Count',style: GoogleFonts.aBeeZee(color: defaultNative),)),);
+    return Padding(padding: const EdgeInsets.all(5),child: OutlinedButton(onPressed: (){}, child: Text('Set Count',style: GoogleFonts.aBeeZee(color: defaultNative),)),);
   }
 }
