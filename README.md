@@ -13,4 +13,4 @@ The code i have written is messed-up. Open it only If you understand it.
 I am currently learning state management(the hardest part of programming to me 😩)
 
 # How project looks now
-![alt text](http://https://github.com/squirelboy360/gympush/blob/main/mediamodifier_image.png)
+![alt text](https://github.com/squirelboy360/gympush/blob/main/mediamodifier_image.png)
